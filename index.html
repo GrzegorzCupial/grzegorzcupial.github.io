@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Front End Portfolio">
+    <title>Front End: Strona z portfolio</title>
+    <meta name="author" content="Grzegorz Cupiał">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin+Condensed:700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+    <div id="layout">
+        <!-- Menu toggle -->
+        <a href="#menu" id="menuLink" class="menu-link">
+            <!-- Hamburger icon -->
+            <span></span>
+        </a>
+
+        <header id="menu">
+            <!--<div class="avatar"></div>-->
+            <nav id="sidenav">
+                <ul class="menu-list" id="close-navbar">
+                    <li>
+                        <a href="#about" class="pure-menu-link" id="button">O mnie
+                    </a>
+                    </li>
+
+                    <li>
+                        <a href="#work" class="pure-menu-link" id="button">Projekty
+                    </a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="pure-menu-link" id="button">Kontakt
+                    </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="author">
+                <h4>©2016 Grzegorz Cupiał</h4>
+            </div>
+        </header>
+
+        <main id="main">
+            <section class="anchor" id="about">
+                <header class="header">
+                    <h1 class="title">Grzegorz Cupiał</h1>
+                    <h2 class="subtitle">Junior Front-End Developer</h2>
+                </header>
+
+                <div class="header">
+                    <h1>O mnie</h1>
+                </div>
+
+
+                <div class="content row">
+                    <div class="content-about col s12 m10 l10">
+                        <article class="about-description">
+                            <p>
+                                Nazywam się Grzegorz. Od dwóch miesięcy interesuję się Front-Endem. Pasjonuję się muzyką filmową oraz nowinkami technologicznymi,
+                                jednak to dla rozwoju w kierunku tworzenia stron internetowych poświęcam ostatnio najwięcej
+                                czasu. Moja przygoda z branżą jest krótka, jednak jestem zmobilizowany do osiągnięcia wyznaczonego
+                                celu poprzez stałe dokształcanie się a rozwiązywanie nawet najmniejszych problemów daje mi
+                                zastrzyk optymizmu i satysfakcji. Na wizję pracy jako Front-End Developer patrzę z dużą ciekawością,
+                                ponieważ wymaga ona stałego uczenia się (jak w całym ogólnie pojętym programowaniu ;)) kolejnych
+                                technologii które jak wiemy, szybko się zmieniają.
+                            </p>
+                            <p>
+                                Jestem osobą odpowiedzialną, starającą się wywiązywać ze swoich obowiązków, uczącą się poprzez działanie. Cechuje mnie uprzejmość,
+                                kultura osobista i ciekawość. Ambicje i chęć wyjścia z własnej strefy komfortu daje mi zastrzyk
+                                entuzjazmu i zapału do rozwoju.
+                            </p>
+                        </article>
+                    </div>
+                    <div class="resume col s12 m2 l2">
+                        <a href="http://github.com/grzegorzcupial" class="github-link">
+                            <img src="img/icons/github.svg" class="svg" alt="github">
+                        </a>
+                    </div>
+                    <div class="col s12">
+                        <h2 class="subtitle">Używam:</h2>
+                        <div class="col s4 m2 icon">
+                            <img src="img/icons/html5.svg" alt="html5">
+                        </div>
+                        <div class="col s4 m2 icon">
+                            <img src="img/icons/css3.svg" alt="css3">
+                        </div>
+                        <div class="col s4 m2 icon">
+                            <img src="img/icons/bootstrap.svg" alt="bootstrap">
+                        </div>
+                        <div class="col s4 m2 icon">
+                            <img src="img/icons/gulp.svg" alt="gulp">
+                        </div>
+                        <div class="col s4 m2 icon sass">
+                            <img src="img/icons/sass.svg" alt="sass">
+                        </div>
+                        <div class="col s4 m2 icon">
+                            <img src="img/icons/jquery.svg" alt="jquery">
+                        </div>
+                        <div class="col s4 m2 icon clear">
+                            <img src="img/icons/rwd.svg" alt="rwd">
+                        </div>
+                        <div class="col s4 m2 icon">
+                            <img src="img/icons/stack.svg" alt="stackoverflow">
+                        </div>
+                    </div>
+                    <div class="col s12">
+                        <h2 class="subtitle">Aktualnie rozwijam:</h2>
+                        <div class="col s4 m2 icon">
+                            <img src="img/icons/js.svg" alt="js">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="anchor" id="work">
+                <div class="header">
+                    <h1>Projekty</h1>
+                </div>
+                <div class="content">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="col s12 m6 l6 project">
+                                <div class="view view-first">
+                                    <img src="img/hottel.jpg" alt="Hottel" />
+                                    <div class="mask">
+                                        <h2>LIVE</h2>
+                                        <a href="projects/hottel/index.html" class="info"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m6 l6">
+                                <article>
+                                    <h2>Hottel</h2>
+                                    <p>Projekt strony internetowej dla hotelu. Strona składająca się ze strony głównej, opisem, wyszczególnieniem pokoi oraz galerią.</p>
+                                    <h3>Tworząc stronę korzystałem z:</h3>
+                                    <ul>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o" aria-hidden="true"></i>HTML
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o" aria-hidden="true"></i>CSS3
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o" aria-hidden="true"></i>SASS
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o" aria-hidden="true"></i>Bootstap (Gridy)
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o" aria-hidden="true"></i>Jquery
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o" aria-hidden="true"></i>Gulp
+                                        </li>
+                                    </ul>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="col s12 m6 l6 project">
+                                <div class="view view-first">
+                                    <img src="img/newsmagazine.jpg" alt="NewsMagazine" />
+                                    <div class="mask">
+                                        <h2>LIVE</h2>
+                                        <a href="projects/newsmagazine/index.html" class="info"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m6 l6">
+                                <article>
+                                    <h2>NewsMagazine</h2>
+                                    <p>Projekt serwisu informacyjnego. Strona składająca się z jednej strony głównej, oraz dwóch
+                                        podstron: kontakt oraz rozwinięcie newsa (po kliknięciu w któryś z wybranych zdjęc
+                                        na stronie głównej).</p>
+                                    <h3>Tworząc stronę korzystałem z:</h3>
+                                    <ul>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o" aria-hidden="true"></i>HTML
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o" aria-hidden="true"></i>CSS3
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o" aria-hidden="true"></i>SASS
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o" aria-hidden="true"></i>MaterializeCSS (Gridy)
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o" aria-hidden="true"></i>Jquery
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o" aria-hidden="true"></i>Gulp
+                                        </li>
+                                    </ul>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="col s12 m6 l6 project">
+                                <div class="view view-first vet">
+                                    <img src="img/vet.jpg" alt="Klinika Weterynaryjna" />
+                                    <div class="mask">
+                                        <h2>LIVE</h2>
+                                        <a href="projects/vet/index.html" class="info"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m6 l6">
+                                <article>
+                                    <h2>Gabinet Weterynaryjny</h2>
+                                    <p>Prosta strona wizytówka oparta na Bootstrapie przedstawiająca klinikę weterynaryjną.
+                                        Strona zawiera 5 zakładek w tym galeria oraz ciekawostki podzielone harmonijką. Do
+                                        każdej podstrony została dodana mapa Google.</p>
+                                    <h3>Tworząc stronę korzystałem z:</h3>
+                                    <ul>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o" aria-hidden="true"></i>HTML
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o" aria-hidden="true"></i>CSS3
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o" aria-hidden="true"></i>Bootstrap
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o" aria-hidden="true"></i>Jquery
+                                        </li>
+                                    </ul>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="anchor" id="contact">
+                <div class="header">
+                    <h1>Kontakt</h1>
+                </div>
+
+                <div class="content row" id="contact">
+                    <div class="col s12">
+                        <div class="contact-list ">
+                            <ul class="get_in">
+                                <li>
+                                    <a href="mailto:grzegorzcupial@gmail.com">
+                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                        <p>grzegorzcupial@gmail.com</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                    <p>+48 660 715 452</p>
+                                </li>
+                                <li>
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <p>Poznań, Poland</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </section>
+        </main>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
+        crossorigin="anonymous"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/tools.js"></script>
+
+
+</body>
+
+</html>
